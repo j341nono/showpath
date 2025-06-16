@@ -20,13 +20,13 @@ PATH管理から`.zshrc`の操作まで、シェル環境の管理に必要な�
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/yourusername/showpath.git
+git clone https://github.com/j341nono/showpath.git
 cd showpath
 
 # ビルド
 cargo build --release
 
-# バイナリをPATHに追加（オプション）
+# バイナリをPATHに追加
 sudo cp target/release/showpath /usr/local/bin/
 ```
 
