@@ -19,7 +19,6 @@ PATH管理から`.zshrc`の操作まで、シェル環境の管理に必要な�
 ### インストール
 
 ```bash
-# リポジトリをクローン
 git clone https://github.com/j341nono/showpath.git
 cd showpath
 cargo build --release
